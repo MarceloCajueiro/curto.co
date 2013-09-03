@@ -1,14 +1,21 @@
 <html>
   <head>
     <title>Curto.co</title>
+    <link rel='stylesheet' type='text/css' href='/app.css'>
+    <link rel='stylesheet' type='text/css' href='/link.css'>
+  </head>
   </head>
 
   <body>
-    <h1>Curto.co</h1>
+    <div id='content'>
+      <h1>Curto.co</h1>
 
-    <p><%= @new_url %></p>
-    <p><%= @error %></p>
+      <input value='<%= @new_url %>' id='url' readonly autofocus>
+      <p id='error'><%= @error %></p>
 
-    <a href='/'>Voltar</a>
+      <p id='back'>
+        <a href='/'>Voltar</a>
+      </p>
+    </div>
   </body>
 </html>
