@@ -1,24 +1,16 @@
 <html>
   <head>
     <title>Curto.co</title>
+    <link rel='stylesheet' type='text/css' href='/app.css'>
+    <link rel='stylesheet' type='text/css' href='/index.css'>
   </head>
 
   <body>
-    <h1>Curto.co</h1>
-    <form action='/' method='POST'>
-      <p>
-        URL:
-      </p>
-      <input type='text' name='url'/><br/>
-
-      <p>
-        CODE:
-      </p>
-      <input type='text' name='code'></input><br/>
-
-      <p>
-        <input type='submit'/>
-      </p>
+    <form action='/' method='POST' id='content'>
+      <h1>Curto.co</h1>
+      <input type='text' name='url' placeholder='http://exemplo.com.br/' autofocus>
+      <input type='text' name='code' placeholder='Código'>
+      <input type='submit' value='Encurtar'>
     </form>
   </body>
 </html>
