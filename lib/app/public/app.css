@@ -1,0 +1,23 @@
+body {
+  color: #777;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#content {
+  margin: 200px auto 0px auto;
+  width: 800px;
+  background-color: #f6f6f6;
+  padding: 20px;
+  border: 1px solid #c5c5c5;
+  border-radius: 4px;
+}
+
+h1 {
+  display: inline;
+}
+
+input {
+  padding: 7px;
+  font-size: 20px;
+  border: 1px solid #c5c5c5;
+}

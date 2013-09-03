@@ -1,0 +1,17 @@
+input[name='url'] {
+  border-radius: 4px 0px 0px 4px;
+  width: 410px;
+}
+
+input[name='code'] {
+  margin-left: -5px; 
+  width: 150px;
+}
+
+input[type='submit'] {
+  border-radius: 0px 4px 4px 0px;
+  margin-left: -5px;
+  font-weight: bold;
+  background-color: #c5c5c5;
+  color: #777;
+}
